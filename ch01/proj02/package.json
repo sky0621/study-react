@@ -1,0 +1,19 @@
+{
+  "name": "proj02",
+  "version": "1.0.0",
+  "description": "説明",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "キーワード"
+  ],
+  "author": "sky0621",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
