@@ -8,17 +8,12 @@
     </head>
     <body>
         <div id="root"></div>
-        <div id="sub"></div>
         <script type="text/babel">
-            ReactDOM.render(
-                <h1>Hello, world!</h1>,
-                document.getElementById('root')
-            )
-
-            ReactDOM.render(
-                <div>This is a pen. That is a pencil.</div>,
-                document.getElementById('sub')
-            )
+            const item = "SDカード"
+            const value = 1200
+            const msg = <h1>{item} - {value}円</h1>
+            const elm = document.getElementById("root")
+            ReactDOM.render(msg, elm)
         </script>
     </body>
 </html>
