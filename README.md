@@ -42,6 +42,10 @@ npm run start
 
 npm start
 
+### React/JSX
+
+npm install -g create-react-app
+
 ## ■babel
 
 npm install --global babel-cli babel-preset-es2015
