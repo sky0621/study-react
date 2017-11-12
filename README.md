@@ -80,3 +80,7 @@ babel src_dir --compact=true -d dest_dir
 ### ・ソースマップ付き
 
 babel xxxx.js -o xxxx.out.js --source-maps
+
+## ■Webpack
+
+webpack xxxx.js out/xxxx.js
