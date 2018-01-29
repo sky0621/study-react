@@ -84,3 +84,7 @@ babel xxxx.js -o xxxx.out.js --source-maps
 ## ■Webpack
 
 webpack xxxx.js out/xxxx.js
+
+## ■create-react-app
+
+create-react-app xxxx
